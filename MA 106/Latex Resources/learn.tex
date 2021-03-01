@@ -1,0 +1,314 @@
+
+\documentclass[12pt]{report}
+
+\usepackage{amssymb}
+\usepackage{amscd,enumerate,amsfonts,calc,amsmath,verbatim,xypic}
+
+\pagestyle{plain}
+\textwidth1710pt
+\topmargin -.5in
+\textwidth 6in
+\textheight 9in
+\hoffset=-0.7in
+\textheight600pt
+\voffset=.5in
+
+\newcommand{\mb}{\mbox}
+\newcommand{\eop}{\hfill{\rule{2mm}{2mm}}}
+\newcommand{\bd}{\boldmath}
+\newcommand{\dm}[1]{{ \displaystyle{#1}}}
+\newcommand{\vone}{\vskip 2ex}
+\newcommand{\vhalf}{\vskip .5ex}
+\newcommand{\vonehalf}{\vskip 3ex}
+\newcommand{\vtwo}{\vskip 4ex}
+\newcommand{\vthree}{\vskip 6ex}
+\newcommand{\hhalf}{\mbox{\hspace{0.5em}}}
+\newcommand{\hone}{\mbox{\hspace{1em}}}
+\newcommand{\honehalf}{\mbox{\hspace{1.5em}}}
+\newcommand{\htwo}{\mbox{\hspace{2em}}}
+\newcommand{\hthree}{\mbox{\hspace{3em}}}
+\newcommand{\hsix}{\mbox{\hspace{6em}}}
+\newcommand{\height}{\mbox{\hspace{8em}}}
+\newcommand{\hnine}{\mbox{\hspace{9em}}}
+
+\newtheorem{chunk}{}
+\newtheorem{num}{}
+\newtheorem{thm}[num]{{\bf Theorem}}
+\newtheorem{lemma}[num]{{\bf Lemma}}
+\newtheorem{rmk}{{\bf Remark}}
+\newtheorem{prop}[num]{{\bf Proposition}}
+\newtheorem{cor}[num]{{\bf Corollary}}
+\newtheorem{defn}{{\bf Definition}}
+\newtheorem{ex}{{\bf Example}}
+
+\newcommand{\ses}[5]{\ensuremath
+{0\ \rar\ #1\ \overset{#4}\rar\ #2\ \overset{#5}\rar\ #3\ \rar\ 0\ }}
+
+\newcommand{\anvec}[3]{\ensuremath{#1_#2, \ldots, #1_#3 }}
+
+\newcommand{\C}{\mathbb C}
+\newcommand{\F}{\mathbb F}
+\newcommand{\N}{\mathbb N}
+\newcommand{\R}{\mathbb R}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\xs}[2]{x^{s_{#2}}_{#1}}
+\newcommand{\hs}[1]{h^{s_{#1}}}
+\newcommand{\ts}{\tilde{\sigma}}
+\newcommand{\bs}{\bar{\sigma}}
+\newcommand{\p}{{\sf p }}
+\newcommand{\sk}{{\sf k }}
+\newcommand{\sL}{{\sf L }}
+\newcommand{\mQ}{{\mathfrak q }}
+\newcommand{\mP}{{\mathfrak p }}
+\newcommand{\m}{{\mathfrak m }}
+\newcommand{\sn}{{\sf n }}
+\newcommand{\e}{\;=\;}
+
+
+\def\X{{\underline X}}
+\def\Y{{\underline Y}}
+\def\lm{{\lambda}}
+\def\hgt{\text{ht}}
+\def\RB{{\overline{\RR}}}
+\def\1{{1\hskip-0.25em{\rm 1}}}
+\def\Rn{\RR^n}
+\def\Rnn{\RR^{n\times n}}
+\def\Rm{\RR^m}
+\def\RN{\RR^N}
+\def\Rmm{\RR^{m\times m}}
+\def\Rnm{\RR^{n\times m}}
+\def\Rmn{\RR^{m\times n}}
+\def\ZZ{{ Z\!\!\! Z}}
+\def\CC{{\ \rlap{\raise 0.4ex 
+\hbox{$\scriptscriptstyle |$}}\hskip -0.2em C}}
+\def\Cn{\CC^n}
+\def\Cnn{\CC^{n\times n}}
+\def\Cm{\CC^m}
+\def\CN{\CC^N}
+\def\mm{{\frak m}}
+
+\def\rar{{\rightarrow}}
+\def\lrar{{\longrightarrow}}
+\def\Lrar{{\Longrightarrow}}
+\def\wrt{{with respect to }}
+\def\sop{{system of parameters }}
+\def\fg{{finitely generated }}
+\def\nr{{Noetherian }}
+\def\CM{{Cohen-Macaulay }}
+\def\rr{{ Ratliff-Rush}}
+\def\Wlg{{Without loss of generality }}
+\def\wlg{{without loss of generality }}
+\def\wmat{{we may assume that }}
+\def\nzd{{non-zerodivisor }}
+\def\tfae{{the following are equivalent}}
+\def\Tfae{{The following are equivalent}}
+\def\dim{\text{dim}}
+\def\depth{\text{depth}}
+\def\spec{\text{Spec}}
+\def\Ass{\text{Ass}}
+\def\det{\text{det}}
+\def\ka{\kappa}
+
+\begin{document}
+
+\centerline{\sc A Theorem and an Application}
+\centerline{\rm A Theorem and an Application}
+\centerline{\it A Theorem and an Application}
+\centerline{\sf A Theorem and an Application}
+\centerline{\bf \tt A Theorem and an Application}
+\centerline { ${\mathfrak {A \ Theorem \ and \ an \ Application}}$} 
+\centerline {\Large {A Theorem and an Application}} 
+\centerline {\small {A Theorem and an Application}} 
+
+\begin{thm}\label{T1}
+$1 = 2$.
+\end{thm}
+
+\noindent
+{\bf Proof:} Let $a = b$. Then $a^2 = ab = b^2$ which gives us $a^2 - ab = a^2 - b^2$. Dividing both sides by $a - b$, we get $a = a + b$, i.e. $a = a + a$. Thus starting with a non-zero $a$, we see that $1 = 2$. \hfill{$\square$}
+
+\begin{cor}
+$0 = 1$.
+\end{cor}
+{\bf Proof:} By Theorem \ref{T1}, $1 = 2$. Subtracting $1$ from both sides, we get the corollary.\hfill{$\square$}\\
+
+\centerline{\bf An Application}
+Fields do not exist, since we $0 \neq 1$ in a field.\\ 
+
+\pagebreak
+
+\noindent
+{\bf Commutative Diagrams, Tables, Equations and Arrays:}
+\begin{chunk}
+\[
+\xymatrixrowsep{1.8pc} \xymatrixcolsep{2.2pc}
+\xymatrix{
+0\ar@{->}[r]&
+N\ar@{->}[r]^{\varphi}\ar@{->}[d]^{\alpha}&R^2\ar@{->}[d]^{\theta}\ar@{->}[r]^{\psi}&M\ar@{->}[d]_{\beta}\ar@{->}[d]\ar@{->}[r]&0\\
+0\ar@{->}[r]&
+M^*\ar@{->}[r]^{\psi^*}&(R^2)^*\ar@{->}[r]^{\varphi^*}&N^*&{}
+}
+\]
+\end{chunk}
+
+$$\xymatrix{\mathcal K \ar[r]^{\iota} \ar[rd]^\phi & \mathcal
+K[X] \ar[d]^{\pi}\\ & \mathcal K[X]/I}$$
+
+
+
+\begin{equation}\label{E:1}
+x_{\alpha}(t) = \sum_{n = 0}^{\infty} 
+\frac{t^n ({\rm ad}\: X_{\alpha})^n}{n!}.
+\end{equation}
+
+$$
+\bar{\sigma}((x_{ij})) = f^{-1}(\sigma(x_{ji}))^{-1} f, \ \ 
+{\rm where} \ \ 
+f =\left( \begin{array}{ccc} 
+\ & \ & 1 \\
+\ & \ddots & \ \\
+1 & \ & \ 
+\end{array} \right), \\
+$$
+$$
+f=\left( \begin{array}{ccc} 
+a & b & c \\
+d & e & f \\
+g & h & i 
+\end{array} \right), 
+$$ 
+ 
+$^{6}\!D_4$ 
+$\displaystyle < \left[\frac{n - 1}{2} \right]$ 
+\[ g(z) = \left\{ \begin{array}
+{r@{\quad \quad}l}
+\overline{f(\bar{z})} & z \in G_- \\ f(z) & z \in G_+ \cup G_0
+\end{array} \right. \]  \\
+
+\begin{tabular}{|r||r@{--}l|p{1.25in}|}
+\hline
+\multicolumn{4}{|c|}{Book Store}\\ \hline \hline
+&\multicolumn{2}{c|}{Price}&\\ \cline{2-3}
+\multicolumn{1}{|c||}{Year}
+& \multicolumn{1}{r@{\,\vline\,}}{low}& high & \multicolumn{1}{c|}{Comments}\\ \hline
+1971 & 97 & 245 & Not Bad.\\ \hline
+72 & 245 & 2001  & Not so good this year.\\ \hline 
+\end{tabular}
+
+\begin{equation}\label{E:1.5}
+if \ a \ normal \ subgroup \  
+N \subset {\bf G}(K) \ is \ {\mathcal A}-adically \ open, 
+\end{equation}
+
+\vfill{\eject}
+
+\noindent
+{\LARGE Symbols:}\\
+$$\psi \quad \chi \quad \xi \quad \l \quad \mp \quad \iff \quad \div \quad \ss \quad \S$$
+$n \geq 5,$ $n \geqslant 5,$ \\
+
+\bigskip
+
+\noindent
+{\Large Self-defined Macros:}\\
+
+\noindent
+Consider the vectors \anvec{X}{1}{n} and \anvec{f}{i}{j}.\\
+
+\noindent
+We get a short exact sequence \ses{K}{M}{N}{f}{g}\\
+
+
+\noindent
+{\bf \tiny Other Stuff:}
+
+The Page Number is: {\rm \thepage}
+
+$$
+z \mapsto \frac{\alpha z + \beta}{\gamma z + \delta}, \ \ \ 
+\alpha\delta - \beta\gamma \neq 0, 
+$$
+
+ 
+${\mathbb P}^1(F_p),$
+$\pi \colon \tilde{\bf G} \to {\bf G}$ 
+\footnote{We will use bold face to denote algebraic groups.}\\
+
+$\mid F(K) \mid \quad \quad \quad \tilde{G}$\\
+\indent
+in Dickson's own words \cite{D}, ....\\
+$\delta({\rm diag}(1, \ldots , 1, d)) = d [D^* , D^*]$ 
+$SL_m^+(D);$\\
+
+\hfill{\parbox[t]{7cm}{\rm It is .... }}
+
+\vskip3mm
+
+\hskip180pt E.~Cartan (1936)\footnote{Quoted after L.~Solomon's 
+review in MR of \cite{Ca}}
+
+\bigskip 
+$$
+{\mathfrak g} = {\mathfrak h} \oplus (\oplus_{\alpha \in R} 
+{\mathfrak g}_{\alpha}){\mathcal L}$$
+ 
+the sum (\ref{E:1})
+${\rm End}\: {\mathfrak g} \otimes_{\mathbb C} {\mathbb C}[[t]]$
+But as we pointed out in \S 1, 
+$\bar{\sigma}$ 
+$\bar{\ }$ 
+$^2\!A_n$
+ 
+
+\medskip
+
+\S\S 2.2B-C. 
+$\mid K \mid \geqslant 4,$ 
+
+$^{3,6}\!D_4$ and $^2\!E_6.$ 
+
+\theequation\\
+
+\setcounter{equation}{10}
+
+current equation number is : \theequation
+
+$$
+\Gamma_l = \{ X \in GL_m({\mathbb Z}_p) \mid X \equiv E_3 ({\rm mod}\: 
+p^l) \}
+$$
+
+$\Delta({\mathcal G})$ 
+$\displaystyle (3\frac{1}{2})$,
+$\displaystyle \left( 3\frac{1}{2} \right)$,
+$(3\frac{1}{2})$
+
+
+\smallskip 
+
+\bibliographystyle{amsplain}
+\begin{thebibliography}{100}
+
+
+\bibitem[C]{Ca} R.W.~Carter, {\it Simple groups of Lie type,} 
+John Wiley \& Sons, London-New York-Sydney, 1972. 
+
+\bibitem[5]{D} L.E.~Dickson, {\it Linear Groups,} Dover Publications, New 
+York, 1958; 1$^{\rm st}$ edition -- 1901. 
+
+\end{thebibliography} 
+
+
+  
+
+\end{document}
+
+
+
+
+
+
+
+
+
+

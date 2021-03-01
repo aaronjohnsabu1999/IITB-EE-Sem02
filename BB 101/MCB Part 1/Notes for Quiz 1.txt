@@ -1,0 +1,59 @@
+Character = A heritable feature that varies among individuals, such as flower color
+Trait = Each variant for a character, such as purple or white color for flowers
+
+Heritable traits = Phenotypic characters that passes from parent to offspring, e.g. eye and hair color 
+
+Advantages of using pea plants - Availability in many varieties, Short generation time, Large number of offspring from single mating, Easier crossing due to well-separated pollen producing and egg bearing organs
+
+Genotype = An organism's full hereditary information
+Phenotype = Actual observed properties
+
+Gene = Mendel’s “heritable factor” = Sequence of nucleotides at a specific place, locus, along a particular chromosome
+Alleles = Alternative variations of a gene inherited from both the parents
+
+Heterozygous = Having different alleles for a single trait
+Homozygous = Identical alleles for a single trait
+
+True-breeding varieties = Varieties that, over many generations of self-pollination, had produced only the same variety as the parent plant
+Testcross = Breeding an organism of unknown genotype with a recessive homozygote
+Monohybrids = Heterozygous for the one particular character being followed in the cross
+
+Hybridization = Cross-pollination, mating or crossing of two true-breeding but contrasting varieties, for example, purple-flowered plants and white-flowered plants
+P generation = Parental generation = The true-breeding parents
+F1 generation = Filial 1 generation = Hybrid offspring
+
+Blending hypothesis = Genetic material contributed by the two parents mixes just as blue and yellow paints blend to make green
+Particulate hypothesis = Genes can be shuffled & passed along generation after generation
+
+Law of segregation =  The two alleles for a heritable character segregate (separate from each other) during gamete formation and end up in different gametes
+Law of independent assortment = Each pair of alleles segregates independently of each other pair of alleles during gamete formation (applies only to genes / allele pairs located on different chromosomes — i.e., on chromosomes that are not homologous or very far apart on the same chromosome)
+Law of dominance = Some alleles are dominant while others are recessive; an organism with at least one dominant allele will display the effect of the dominant allele
+
+Complete dominance = Phenotypes of the heterozygote and dominant homozygote are identical
+Incomplete dominance = The phenotype of F1 hybrids is somewhere between the phenotypes of the two parental varieties (Red Snapdragons)
+Co-dominance = Two dominant alleles affect the phenotype in separate and distinguishable ways (ABO Blood Grouping)
+
+Chromosome theory of inheritance = Genes are located on chromosomes and behavior of chromosomes during meiosis accounts for Mendel’s laws of segregation and independent assortment
+
+Sex-linked Traits and Disorders - Red-green colour blindness, Haemophilia, Night blindness, Duchenne muscular dystrophy
+
+Genetic Recombination = The production of offspring with combinations of traits that differ from those found in either P generation parent = Exchange of nucleotide sequences between two homologous DNA molecules (identical or nearly identical to one another)
+Crossing over = Process in which a set of proteins conducts the exchange of corresponding segments of two non-sister chromatids
+
+Transformation = change in genotype and phenotype due to the assimilation of external DNA by a cell
+
+DNA - Two anti-parallel strands, noncovalently attached to each other; semi-conservative in replications
+Erwin Chargaff’s rule - %A = %T and %G = %C
+
+Plasmids = Extra-chromosomal molecules of DNA that vary in size from 1 kb to more than 200 kb - Double stranded, covalently closed, circular molecules found in wide variety of bacterial species - Behave as accessory genetic units that replicate and inherit independently of the bacterial chromosome
+Cloning vector = DNA molecule that can carry foreign DNA into a host cell and replicate there
+pBR322 = Commonly used plasmid cloning vector in E. coli - Contains the origin of replication and unique restriction sites - Also contains the genes for resistance to ampicillin and tetracycline
+
+Restriction enzyme = Restriction endonculease - Cuts DNA molecules at a specific location - Recognizes a particular short DNA sequence (restriction site) and cuts both DNA strands at precise points within this restriction site - Usually recognizes sequences containing 4-8 nucleotide pairs, which yields a set of restriction fragments
+
+Agarose Gel Electrophoresis - A gel made of polymer acts as a molecular sieve which separates nucleic acids based on electrical charge - Negative charged DNA molecules move toward positive electrode - DNA-binding dye is mixed, which fluoresces pink in UV light - Each pink band corresponds to DNA molecules
+
+Gene cloning - To amplify a particular gene, To produce a protein product
+
+Primer = Short strand of nucleotides (about 18-28 nucleotides in length) that serves as a starting point for DNA synthesis - Should not be self-complimentary - 50-60% GC composition - Have a balanced distribution of G/C and A/T domains - No long strings of a single base (<4)
+Tm = (A+T)*2 + (G+C)*4
